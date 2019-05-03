@@ -36,7 +36,7 @@ then
 fi
 if [ ! -f resources/plugins/geoserver-wps-plugin.zip ]
 then
-    wget -c http://downloads.sourceforge.net/project/geoserver/GeoServer/${GS_VERSION}/extensions/geoserver-${GS_VERSION}-wps-plugin.zip -O resources/plugin$
+    wget -c http://downloads.sourceforge.net/project/geoserver/GeoServer/${GS_VERSION}/extensions/geoserver-${GS_VERSION}-wps-plugin.zip -O resources/plugins/geoserver-wps-plugin.zip
 fi
 if [ ! -f resources/plugins/geoserver-gdal-plugin.zip ]
 then
